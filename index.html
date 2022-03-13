@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- font awesome and google fonts-->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Raleway%7CRighteous" rel="stylesheet">
 
     <link rel="stylesheet" href="assets/css/style.css">
@@ -14,45 +16,74 @@
 
 <body class="flex">
     <div class="wrapper">
-         <!-- music controls -->
-    <div class="container volume-controller">
-        <a class="circle" onClick="musicControl();" id="music-on">
-            <i class="fas fa-volume-mute" aria-label="Turn on background music"></i>
-        </a>
-        <a class="circle hide" onClick="musicControl();" id="music-off">
-            <i class="fas fa-volume-up" aria-label="Turn off background music"></i>
-        </a>
-    </div>
-    <h1 class="heading">Do you know your flags?</h1>
-    <div class = "quiz-score flex">
-        <span id = "correct-score"></span>/<span id = "total-question"></span>
-    </div>
-    <div class="game-area">
-        <img src="assets/images/hr.svg" alt="Croatian flag" class="flag">
-        <ul class="answer-options">
-            <li>Dominican Republic</li>
-            <li>Croatia</li>
-            <li>Kazakhstan</li>
-        </ul>
-    </div>
+        <!-- music controls -->
+        <div class="container volume-controller">
+            <a class="circle" onClick="musicControl();" id="music-on">
+                <i class="fas fa-volume-mute" aria-label="Turn on background music"></i>
+            </a>
+            <a class="circle hide" onClick="musicControl();" id="music-off">
+                <i class="fas fa-volume-up" aria-label="Turn off background music"></i>
+            </a>
+        </div>
+        <!-- Rules -->
+        <div class="game-container container rules">
+            <div id="home" class="column centralize-flex">
+                <h1 id="title">Do you know your flags?</h1>
+                <!-- How To Play -->
+                <div id="how-to" class="column centralize-flex">
+                    <p>How To Play!</p>
+                    <ol>
+                        <li>Select the number of flags to match below</li>
+                        <li>Look at the flag and choose 1 of the 3 options for your answer</li>
+                        <li>Get your score at the end!</li>
+                    </ol>
+                </div>
+                <!-- Categories Buttons -->
+                <div class="quiz-foot">
+                    <button type="button" id="run-10">10 random flags</button>
+                    <button type="button" id="run-all">all flags</button>
 
-    <div class="results">
+                </div>
+            </div>
+        </div>
+        <!-- Game Container -->
+        <div class="game-container gameboard hide">
 
-    <!--results go here-->
-    </div>
+            <div class="quiz-score flex">
+                <span id="correct-score"></span>/<span id="total-question"></span>
+            </div>
+            <div class="game-area">
+                <img src="assets/images/hr.svg" alt="flag" class="flag">
+                <ul class="answer-options">
+                    <li class="answer-1"></li>
+                    <li class="answer-2"></li>
+                    <li class="answer-3"></li>
+                </ul>
+            </div>
+            <div class="quiz-foot">
+                <button type="button" id="check-answer">Check answer</button>
+            </div>
+        </div>
+        <div class="game-container results hide">
+            <h1 id="final-score">You scored 0 out of 10!</h1>
+            <div class="quiz-foot">
+                <button type="button" id="play-again">Play again</button>
+            </div>
+            <!--results go here-->
+        </div>
 
-    <div class="quiz-foot">
-        <button type="button" id="check-answer">Check answer</button>
-        <button type="button" id="play-again">Play again</button>
-    </div>
+        <div class="quiz-foot">
+
+        </div>
     </div>
     <!-- AUDIO FILES -->
-<!-- downloaded Free Bold Statement Music from playonloop.com https://www.playonloop.com/2018-music-loops/bold-statement/ -->
- <audio id="bgMusic" src="assets/dungeon-crawler/audio/bg-music.wav"></audio>
+    <!-- downloaded Free Bold Statement Music from playonloop.com https://www.playonloop.com/2018-music-loops/bold-statement/ -->
+    <audio id="bgMusic" src="assets/dungeon-crawler/audio/bg-music.wav"></audio>
 
- <!--font awesome script-->
- <script src="https://kit.fontawesome.com/56b3ff7c8f.js" crossorigin="anonymous"></script>
+    <!--font awesome script-->
+    <script src="https://kit.fontawesome.com/56b3ff7c8f.js" crossorigin="anonymous"></script>
     <script src="assets/js/script.js"></script>
 
 </body>
+
 </html>
