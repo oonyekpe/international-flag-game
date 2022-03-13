@@ -255,47 +255,80 @@ const flags = {
     "ZM": "Zambia",
     "ZW": "Zimbabwe"
 };
+let questions = [];
+let max_questions = 10;
 /**
  * Music file setup
  */
- let bgmusic = document.getElementById('bgMusic');
- bgmusic.volume = 0.5;
- bgmusic.loop = true;
- let soundOn = false;
- 
- /**
-  * Toggle on and off background music
-  */
- function musicControl() {
-     soundOn = !soundOn;
-     if (soundOn) {
-         bgmusic.play();
-         document.getElementById("music-on").classList.add('hide');
-         document.getElementById("music-off").classList.remove('hide');
-     } else {
-         bgmusic.pause();
-         document.getElementById("music-off").classList.add('hide');
-         document.getElementById("music-on").classList.remove('hide');
-     }
- }
-// event listeners
-function eventListeners(){
-    _checkBtn.addEventListener('click', checkAnswer);
-    _playAgainBtn.addEventListener('click', restartQuiz);
-}
+let bgmusic = document.getElementById('bgMusic');
+bgmusic.volume = 0.5;
+bgmusic.loop = true;
+let soundOn = false;
 
-document.addEventListener('DOMContentLoaded', function(){
-    loadQuestion();
+const question_10 = document.getElementById('run-10');
+const question_all = document.getElementById('run-all');
+const rules_section = document.querySelector('.rules');
+const game_section = document.querySelector('.gameboard');
+const results_section = document.querySelector('.results');
+/**
+ * Toggle on and off background music
+ */
+function musicControl() {
+    soundOn = !soundOn;
+    if (soundOn) {
+        bgmusic.play();
+        document.getElementById("music-on").classList.add('hide');
+        document.getElementById("music-off").classList.remove('hide');
+    } else {
+        bgmusic.pause();
+        document.getElementById("music-off").classList.add('hide');
+        document.getElementById("music-on").classList.remove('hide');
+    }
+}
+// event listeners
+function eventListeners() {
+    question_10.addEventListener('click', startGame('10'));
+    question_all.addEventListener('click', startGame('all'));
+}
+/*https://stackoverflow.com/questions/2450954/how-to-randomize-shuffle-a-javascript-array/18650169#18650169
+*/
+function shuffle(array) {
+    return array.sort(() => Math.random() - 0.5);
+}
+function startGame(option) {
+    if (option == '10') {
+        max_questions = 10;
+        let counter = 0;
+        while (counter < max_questions) {
+            const questionsIndex = Math.floor(Math.random() * Object.keys(flags).length);
+            if (!questions.includes(questionsIndex)) {
+                questions.push(questionsIndex);
+                counter++;
+            }
+        }
+    } else {
+        max_questions = Object.keys(flags).length;
+        questions = Array.from(Array(Object.keys(flags).length).keys());
+        questions = shuffle(questions);
+    }
+    rules_section.classList.add('hide');
+    game_section.classList.remove('hide');
+    displayQuestion();
+}
+function displayQuestion() {
+
+}
+document.addEventListener('DOMContentLoaded', function () {
+
     eventListeners();
-    _totalQuestion.textContent = totalQuestion;
-    _correctScore.textContent = correctScore;
+
 });
 
 /**
  * The main game "loop", called when the script is first loaded
  * and after the user's answer has been processed
  */
- function runGame(gameType) {
+function runGame(gameType) {
 
     // Generates a random flag from the list
 
@@ -305,12 +338,12 @@ document.addEventListener('DOMContentLoaded', function(){
     let currentQuestion = flags[question]
     //pulls image and answer from ...
 
-   
+
 }
 
 function showFlag() {
-    if (currentQuestion == "Croatia"){
-        
+    if (currentQuestion == "Croatia") {
+
     }
 
 }
