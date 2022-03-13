@@ -122,7 +122,27 @@ body{
     display: none;
 }
 
-
+/* Music Controller */
+.circle{
+    height: 36px;
+    width: 36px;
+    border: 1px solid skyblue;
+    background: whitesmoke;
+    color: skyblue;
+    border-radius: 50%;
+    text-align: center;
+    display: block;
+    margin: 12px auto 0;
+ }
+ .circle i{
+    font-size: 25px;
+    margin: 4px 2px;
+ 
+ }
+ /* helper class to hide elements with javascript */
+ .hide{
+     display: none;
+ }
 @media(max-width: 678px){
     .quiz-title{
         font-size: 1.6rem;

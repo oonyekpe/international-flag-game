@@ -14,6 +14,15 @@
 
 <body class="flex">
     <div class="wrapper">
+         <!-- music controls -->
+    <div class="container volume-controller">
+        <a class="circle" onClick="musicControl();" id="music-on">
+            <i class="fas fa-volume-mute" aria-label="Turn on background music"></i>
+        </a>
+        <a class="circle hide" onClick="musicControl();" id="music-off">
+            <i class="fas fa-volume-up" aria-label="Turn off background music"></i>
+        </a>
+    </div>
     <h1 class="heading">Do you know your flags?</h1>
     <div class = "quiz-score flex">
         <span id = "correct-score"></span>/<span id = "total-question"></span>
@@ -37,6 +46,12 @@
         <button type="button" id="play-again">Play again</button>
     </div>
     </div>
+    <!-- AUDIO FILES -->
+<!-- downloaded Free Bold Statement Music from playonloop.com https://www.playonloop.com/2018-music-loops/bold-statement/ -->
+ <audio id="bgMusic" src="assets/dungeon-crawler/audio/bg-music.wav"></audio>
+
+ <!--font awesome script-->
+ <script src="https://kit.fontawesome.com/56b3ff7c8f.js" crossorigin="anonymous"></script>
     <script src="assets/js/script.js"></script>
 
 </body>
