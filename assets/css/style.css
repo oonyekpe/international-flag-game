@@ -121,6 +121,8 @@ body{
 #play-again{
     display: none;
 }
+
+
 /* answer buttons */
 .answer.selected{
     color: skyblue !important;
