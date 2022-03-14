@@ -352,6 +352,8 @@ function startGame(option) {
     displayQuestion();
 }
 function displayQuestion() {
+    document.querySelector('.answer-result').classList.add('hide');
+    check_answer_button.classList.remove('hide');
     // Check if at max questions asked
     if (current_question < max_questions) {
         // remove selected class on answers so we don't carry over anything from previous question
