@@ -321,6 +321,7 @@ function eventListeners() {
             selectAnswer(e.target);
         });
     });
+    check_answer_button.addEventListener('click', function (e) { checkAnswer(e.target); });
 }
 /* Suffle from stack overflow: https://stackoverflow.com/questions/2450954/how-to-randomize-shuffle-a-javascript-array/18650169#18650169
 */
@@ -400,7 +401,10 @@ function displayQuestion() {
     }
 }
 
-function checkAnswer() {
+function checkAnswer(button) {
+    if(!button.classList.contains('disabled')){
+    const selected_answer = document.querySelector('.answer.selected');
+    }
     // get selected button
     // see if answer is right or not
     // update score
