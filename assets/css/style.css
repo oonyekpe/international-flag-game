@@ -121,6 +121,12 @@ body{
 #play-again{
     display: none;
 }
+/* answer buttons */
+.answer.selected{
+    color: skyblue !important;
+    border: 1px solid skyblue !important;
+    background: whitesmoke !important;
+}
 
 /* Music Controller */
 .circle{

@@ -257,6 +257,8 @@ const flags = {
 };
 let questions = [];
 let max_questions = 10;
+let current_question = 0;
+const answer_buttons = document.querySelectorAll('.answer');
 /**
  * Music file setup
  */
@@ -266,6 +268,7 @@ bgmusic.loop = true;
 let soundOn = false;
 
 const question_10 = document.getElementById('run-10');
+const check_answer_button = document.getElementById('check-answer');
 const question_all = document.getElementById('run-all');
 const rules_section = document.querySelector('.rules');
 const game_section = document.querySelector('.gameboard');
@@ -289,7 +292,36 @@ function musicControl() {
 function eventListeners() {
     question_10.addEventListener('click', function() {startGame('10');});
     question_all.addEventListener('click', function() {startGame('all');});
+    answer_buttons.forEach(function (option) {
+        option.addEventListener('click', function (e) {
+            selectAnswer(e.target);
+        });
+    });
+
 }
+function unselectAllAnswers(){
+    // loop through answers and remove selected class
+    answer_buttons.forEach(function (option) {
+        if(option.classList.contains('selected')){
+            option.classList.remove('selected');
+        }
+    });
+}
+
+function selectAnswer(button){
+    // remove selected from all answers
+    unselectAllAnswers();
+
+    // add selected to the button that was clicked
+    button.classList.add('selected');
+
+    // remove disabled from check answer button
+    if(check_answer_button.classList.contains('disabled')){
+        check_answer_button.classList.remove('disabled');
+    }
+}
+
+
 /*https://stackoverflow.com/questions/2450954/how-to-randomize-shuffle-a-javascript-array/18650169#18650169
 */
 function shuffle(array) {
@@ -316,6 +348,19 @@ function startGame(option) {
     displayQuestion();
 }
 function displayQuestion() {
+ // Check if at max questions asked
+ if(current_question < max_questions) {
+    // remove selected class on answers so we don't carry over anything from previous question
+    // set up new image by changing image tag
+    // add correct answer to questions
+    // get 2 alternate answers
+    // set up answers randomly
+    
+    
+} else {
+     // show results
+
+     // update score
 
 }
 document.addEventListener('DOMContentLoaded', function () {
