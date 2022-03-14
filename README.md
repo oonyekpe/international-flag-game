@@ -94,11 +94,15 @@ In this section, you need to convince the assessor that you have conducted enoug
 If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
 ### Validation Testing
-You should try to ensure you code is valid and follows proper indentation.  In this section you should write up any websites you used to validate your code. As your projects becomes more complex these tools may change.
+I validated my code with the following websites (see the screenshots below):
 
 - [CSS Validator](https://jigsaw.w3.org/css-validator/) Note, any error associated with root: color variables were ignored.
 - [HTML Validator](https://validator.w3.org/)
-- [JS validation](https://jshint.com) for each .js file/ , if using ES6, add this before pasting in your file: `/*jshint esversion: 6 */ `
+- [JS validation](https://jshint.com) I copied my Script.JS file and pasted this since I used ES6, at the top of the file. 
+`/*jshint esversion: 6 */ `
+![image](https://user-images.githubusercontent.com/68662449/158274993-8fead18f-94d8-43c7-853c-ed5407acc83f.png)
+
+
 - [JSON validation](https://jsonlint.com/) for each .json file 
 
 ### Cross Browser and Cross Device Testing
