@@ -118,10 +118,6 @@ body{
     transform: scale(0.95);
 }
 
-#play-again{
-    display: none;
-}
-
 
 /* answer buttons */
 .answer.selected{

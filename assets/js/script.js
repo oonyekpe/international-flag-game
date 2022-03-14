@@ -275,6 +275,7 @@ const game_section = document.querySelector('.gameboard');
 const results_section = document.querySelector('.results');
 const check_answer_button = document.getElementById('check-answer');
 const next_question_button = document.getElementById('next-question');
+const play_again_button = document.getElementById('play-again');
 let score = 0;
 /**
  * Toggle on and off background music
@@ -314,6 +315,16 @@ function selectAnswer(button) {
     }
 }
 
+function playAgain() {
+    questions = [];
+    max_questions = 10;
+    current_question = 0;
+    correct_answer = "";
+    score = 0;
+    game_section.classList.add('hide');
+    results_section.classList.add('hide');
+    rules_section.classList.remove('hide');
+}
 // event listeners
 function eventListeners() {
     question_10.addEventListener('click', function () { startGame('10'); });
@@ -325,6 +336,7 @@ function eventListeners() {
     });
     check_answer_button.addEventListener('click', function (e) { checkAnswer(e.target); });
     next_question_button.addEventListener('click', function () { displayQuestion(); });
+    play_again_button.addEventListener('click', function () { playAgain(); });
 }
 /* Suffle from stack overflow: https://stackoverflow.com/questions/2450954/how-to-randomize-shuffle-a-javascript-array/18650169#18650169
 */
