@@ -96,7 +96,9 @@ If this section grows too long, you may want to split it off into a separate fil
 ### Validation Testing
 I validated my code with the following websites (see the screenshots below):
 
-- [CSS Validator](https://jigsaw.w3.org/css-validator/) Note, any error associated with root: color variables were ignored.
+- [CSS Validator](https://jigsaw.w3.org/css-validator/) no error was found.
+![image](https://user-images.githubusercontent.com/68662449/158278031-510924eb-c905-42fa-8a15-420445dc3ffb.png)
+
 - [HTML Validator](https://validator.w3.org/)
 - [JS validation](https://jshint.com) I copied my Script.JS file and pasted this since I used ES6, at the top of the file. 
 `/*jshint esversion: 6 */ `
