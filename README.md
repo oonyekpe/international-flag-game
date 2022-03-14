@@ -189,17 +189,17 @@ https://web.dev/measure/  If you have lower scores, read the report and follow t
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages).
+1. Go to the repository and click on the Settings tab
+![image](https://user-images.githubusercontent.com/68662449/158276068-c1f0d6dc-244a-428a-a0ca-bcbba973b612.png)
+2. Click on the Pages link in the left navigation
+![image](https://user-images.githubusercontent.com/68662449/158276279-df5e602e-1e6b-4046-89e6-4155c7bb75e7.png)
+3. In the Sources section click on the NONE button and select MAIN from options:
+![image](https://user-images.githubusercontent.com/68662449/158276523-2d582ec4-e085-4812-8773-aa6affb6da77.png)
+4. Click the SAVE button and my blue area of the deployed URL shows up:
+![image](https://user-images.githubusercontent.com/68662449/158276709-23a5f107-8602-4150-94db-c8952cad2322.png)
 
-In particular, you should provide all details of the differences between the deployed version and the development version, if any.
-
-Remember to use proper markdown for commands and enumerated steps.
 
 
-You may want to re-watch the [initial deployment in gitpod video](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LR101+2021_T1/courseware/4a07c57382724cfda5834497317f24d5/9b06129195c64fada6783de9cfe82d60/) when writing up this section.
-
-
-Write out steps you would take and test them to deploy your code to GitHub Pages, include screenshots if you think they would make the process easier.
 
 ## Credits
 
