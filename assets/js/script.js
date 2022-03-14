@@ -399,6 +399,7 @@ function displayQuestion() {
 
     } else {
 
+        document.getElementById('final-score').innerText = "Your Final Score is " + score + "/" + max_questions;
         // show results
         game_section.classList.add('hide');
         results_section.classList.remove('hide');
@@ -414,7 +415,7 @@ function checkAnswer(button) {
         if (correct_answer == selected_answer) {
             // update score
             score++;
-            document.getElementById('correct-score').innerText=score;
+            document.getElementById('correct-score').innerText = score;
             document.querySelector('.answer-text').innerText = "CORRECT!";
         } else {
             document.querySelector('.answer-text').innerText = "SORRY! The correct answer is: " + correct_answer;
