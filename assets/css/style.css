@@ -149,7 +149,7 @@ body{
  }
  /* helper class to hide elements with javascript */
  .hide{
-     display: none;
+     display: none!important;
  }
 @media(max-width: 678px){
     .quiz-title{

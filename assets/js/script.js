@@ -274,6 +274,8 @@ const rules_section = document.querySelector('.rules');
 const game_section = document.querySelector('.gameboard');
 const results_section = document.querySelector('.results');
 const check_answer_button = document.getElementById('check-answer');
+const next_question_button = document.getElementById('next-question');
+let score = 0;
 /**
  * Toggle on and off background music
  */
@@ -322,6 +324,7 @@ function eventListeners() {
         });
     });
     check_answer_button.addEventListener('click', function (e) { checkAnswer(e.target); });
+    next_question_button.addEventListener('click', function () { displayQuestion(); });
 }
 /* Suffle from stack overflow: https://stackoverflow.com/questions/2450954/how-to-randomize-shuffle-a-javascript-array/18650169#18650169
 */
@@ -359,7 +362,7 @@ function displayQuestion() {
         const key = Object.keys(flags)[questions[current_question]];
         const image_path = 'assets/images/' + key.toLowerCase() + '.svg';
         let picture = document.getElementById("picture");
-    
+
         while (picture.firstChild) {
             picture.removeChild(picture.firstChild);
         }
@@ -387,9 +390,9 @@ function displayQuestion() {
             option.innerText = answer_choices[index];
         });
         // update score coumter
-        if(current_question == 0 ){
-            document.getElementById("total-question").innerText=max_questions;
-            document.getElementById("correct-score").innerText="0";
+        if (current_question == 0) {
+            document.getElementById("total-question").innerText = max_questions;
+            document.getElementById("correct-score").innerText = "0";
         }
 
     } else {
@@ -402,15 +405,22 @@ function displayQuestion() {
 }
 
 function checkAnswer(button) {
-    if(!button.classList.contains('disabled')){
-    const selected_answer = document.querySelector('.answer.selected');
+    if (!button.classList.contains('disabled')) {
+        // get selected button
+        const selected_answer = document.querySelector('.answer.selected').innerText;
+        // see if answer is right or not
+        if (correct_answer == selected_answer) {
+            // update score
+            score++;
+            document.querySelector('.answer-text').innerText = "CORRECT!";
+        } else {
+            document.querySelector('.answer-text').innerText = "SORRY! The correct answer is: " + correct_answer;
+        }
+        document.querySelector('.answer-result').classList.remove('hide');
+        check_answer_button.classList.add('hide');
+        // update current question index
+        current_question++;
     }
-    // get selected button
-    // see if answer is right or not
-    // update score
-    // update current question index
-    current_question ++;
-
 }
 document.addEventListener('DOMContentLoaded', function () {
 
