@@ -287,8 +287,8 @@ function musicControl() {
 }
 // event listeners
 function eventListeners() {
-    question_10.addEventListener('click', startGame('10'));
-    question_all.addEventListener('click', startGame('all'));
+    question_10.addEventListener('click', function() {startGame('10');});
+    question_all.addEventListener('click', function() {startGame('all');});
 }
 /*https://stackoverflow.com/questions/2450954/how-to-randomize-shuffle-a-javascript-array/18650169#18650169
 */
