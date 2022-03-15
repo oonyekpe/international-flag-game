@@ -111,8 +111,8 @@ It's ok to not resolve all the defects you found. If you know of something that 
 
 ## Lighthouse Audits
 
-You should run your deployed website pages through lighthouse's audit to check performance, accessibility, best practices and SEO scores. You should aim to get 85 or higher score. 
-https://web.dev/measure/  If you have lower scores, read the report and follow the links to address the flagged issues. You can run this tool from Chrome Dev Tools too against your local machine, but the performance will the worst (I personally ignore my performance results unless it's deployed code. I hope for > 60 on that mark, but > 85 on the other 3)
+I ran an audit at [web.dev](https://web.dev/measure/)
+![image](https://user-images.githubusercontent.com/68662449/158301462-4450c0c5-c3d7-4381-a0e1-1fc839957dd4.png)
 
 ## Deployment
 
