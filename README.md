@@ -18,40 +18,33 @@ Copy your readme to http://ecotrust-canada.github.io/markdown-toc/ to make a tab
 
 # International Flag Game - Portforlio Project 2
 An interactive Front-End web application built using HTML, CSS and JavaScript with a structured layout and navigation model that is accessibile and responsive.
+Here is a link to my deployed project: (https://oonyekpe.github.io/international-flag-game/).
 
 Here is a screenshot of navigation of my mobile deployed site:
 ![image](https://user-images.githubusercontent.com/68662449/158280812-7967fbcb-49f6-47c3-befd-e8db3e1388d0.png)
- 
-- Include a link to deployed project with one line explanation of project
 
 ## Author
 Obiageli Onyekpe
 
 ## Project Overview
-Do You Know Your Flags? is the challenge of this online interactive fun quiz. Users of all ages can play and can test their knowledge of national flags in a fun way as their answers generate scores during the course of the game. The link to the online quiz is provided here: https://oonyekpe.github.io/international-flag-game/
-On the landing page users are presented with a Heading that tells them what the quiz challenge is, followed by simple instructions on How To Play the quiz in three quick steps. Quiz players can select a button to play one of two categories - 10 randomly presented flags or All flags (there are 255 of them). The game has a music feature that can be turned on or off during play, as well as a score tracking feature that can facilitate competition and make the challenge so much fun!
+Do You Know Your Flags? is the challenge of this online interactive fun quiz. Users of all ages can play and test their knowledge of national flags in a fun way as their answers generate scores during the course of the game. The link to the online quiz is provided here: (https://oonyekpe.github.io/international-flag-game/).
+On the Home page users are presented with a Heading that tells them what the quiz challenge is, followed by simple instructions on How To Play the quiz in three quick steps. Quiz players can select a button to play one of two categories - 10 randomly presented flags or All flags (there are 255 of them). The game has a music feature that can be turned on or off during play, as well as a score tracking feature that can facilitate competition and make the challenge so much fun!
 
-- Include a picture of site that shows it in responsive states and links to deployed code: http://ami.responsivedesign.is/
+Picture of site that shows it in responsive states and links to deployed code: http://ami.responsivedesign.is/
  ![image](https://user-images.githubusercontent.com/68662449/158282727-96e2fa9c-e04d-4a64-8e26-ea400b88ba2e.png)
-
-- One or two paragraphs providing an overview of your project.
-- Write this as a sales pitch or commercial to entice users to interact with your site or how you want investors to purchase your website.
-- Include a link to your deployed website
-
-## Table of Contents
-Generate after readme is complete for UX and below
 
 ## UX
 
 ### Project Goals
-Use this section to provide insight into your UX process, focusing on who this website is for, calling out demographics, what it is that they want to achieve and how your project is the best way to help them achieve these things.
-
-This online quiz game is designed for inquisitive people with good general knowledge and interest in countries across the world. Users' age range would be from primary school age to 100 years! Visitors to the site will enjoy the simplicity and accessibility of the layout and find it easy to play the quiz game. This site is designed to meet accessibilty guidelines for people of all abilities.
+This online quiz game is designed for inquisitive people with good general knowledge and interest in countries across the world. Users' age range would be from primary school age to 100 years! Visitors to the site will enjoy the simplicity and accessibility of the layout and find it easy to play the quiz game. This site is designed to meet accessibilty guidelines for people of all abilities, including for the visually impaired.
 
 ### Wireframes
 To begin constructing the idea, I drafted a rough layout on PowerPoint in order to visualise my idea. Here is a PDF of my [wireframes](https://github.com/oonyekpe/international-flag-game/blob/main/assets/docs/flag-game-wireframe.pdf)
 
 ### Features
+- HTML page with interactive functionality and clear structure 
+- 
+
 
 In this section, you should go over the different parts of your project, and describe each in a sentence or so and how they tie into  your user stories.
 
