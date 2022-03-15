@@ -42,9 +42,12 @@ This online quiz game is designed for inquisitive people with good general knowl
 To begin constructing the idea, I drafted a rough layout on PowerPoint in order to visualise my idea. Here is a PDF of my [wireframes](https://github.com/oonyekpe/international-flag-game/blob/main/assets/docs/flag-game-wireframe.pdf)
 
 ### Features
-- HTML page with interactive functionality and clear structure 
-- 
-
+- One HTML Home page with interactive and functional features
+- Game coded to generate two types of quiz games which the player can access by selecting one of two buttons
+- Sound: button at the top of page can be clicked to turn music on or off during play
+- Heading at top of the page clearly stating what the quiz game is about
+- Heading "How to Play" with short list of 3 instructions to play the game
+- Two separate buttons to select a quiz, identify 10 Flags quiz or identify from All flags in the world.
 
 In this section, you should go over the different parts of your project, and describe each in a sentence or so and how they tie into  your user stories.
 
