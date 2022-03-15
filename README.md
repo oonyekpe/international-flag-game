@@ -71,7 +71,7 @@ Here is a screenshot showing this feature: ![image](https://user-images.githubus
 - NEXT Question Button - alligned under 3 answer selection options.
 - Position of CORRECT answer changes with each new flag option. 
 - In the two screenshots below, correct answer is top and then middle option:
-- 
+ 
 ![image](https://user-images.githubusercontent.com/68662449/158320812-00137ba8-253e-4ae2-a7dd-06ab47887221.png)
 
 
@@ -192,8 +192,8 @@ I ran an audit at [web.dev](https://web.dev/measure/)
 
 ### Media
 
-https://flagpedia.net/download/vector was the source of the flags.
-https://www.playonloop.com/freebies-download/ was the source of the backgroung music.
+- https://flagpedia.net/download/vector was the source of the flags.
+- https://www.playonloop.com/freebies-download/ was the source of the backgroung music.
 
 ### Acknowledgments
 
