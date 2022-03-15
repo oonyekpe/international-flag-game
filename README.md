@@ -78,21 +78,25 @@ Here is a screenshot showing this feature: ![image](https://user-images.githubus
 - Play again BUTTON appears at the end of each round. Here is a screenshot demonstrating this feature:
 ![image](https://user-images.githubusercontent.com/68662449/158319626-845a84d0-7dde-4a05-97b7-ccc636fa3126.png)
  
-- Refresh page in browser to return to Home page at any point.
+- User can refresh page in browser to return to Home page at any point.
 
 
 Use this section to discuss plans for additional features to be implemented in the future:
 
-- In future, I would like to improve the design of the Home page, spread the visible features out more
-- I would like to add more design feature for a more aesthetic presentation
-- I would include a navigation panel for the Home button and perhaps a Forward and Back.
-- I would complete the development for the "All flags" quiz
-If you end up not developing some features you hoped to implement, you can include those in this section.
+Features I would like to further develope and implement in future are:
+- Improve the design of the Home page, spread the visible features out more
+- Add more design features and possibly some animation
+- Include a navigation panel menu with "Home" "Forward" "Back" and "Contact".
+- Complete the development for the "All flags" quiz
+- Create a app version of the Quiz
+- Create a 404 page that would match the styles of my website.
+- "Contact" page allow for sending the website owner an email and to produce a thank you page for the user.
+-	I would have a favicon to represent my website in the browser tab
 
 
 ## Testing
 
-I tested the quiz idea with two children and two adults and was encouraged by their positive feedback. After I completed the site, I asked for them to test the game and the feedback on their experience was that it was fun, interactive and easy to play.
+I tested the quiz idea with two children and two adults and was encouraged by their positive feedback. After I completed the site, I asked for them to test the game and their feedback on their experience was that it was fun, interactive and easy to play.
 
 ### Validation Testing
 I validated my code with the following websites (see the screenshots below):
@@ -110,26 +114,42 @@ I fixed two warnings and now I have no errors or warnings, see link below:
 
 
 
-
 ### Cross Browser and Cross Device Testing
 Create a table that lists out what devices, browsers, and operating system you tested your application on and a brief description of why you chose the mixture you did. The point is to prove that you looked at the site across various browsers, operating systems, and viewport breakpoints.
 
-- DELL Latitutde E7440, ACER Swift 1 - Windows 10 OS- Microsoft Edge and Google Chrome : no issues encountered. 
-These browswers are most commonly used in my network of family and friends, I tested on laptops and  Tablets within my circles of interaction.
-- Huawei P10 and Nokia X20 - all funtions and features worked well.
+Testing done on two laptops and three mobile phones: no issues encountered, all funtions and features worked well. 
+These browsers are most commonly used in my network of family and friends, I tested on laptops and tablets within my circles of interaction.
+-the website looked particularly good on the Huawei P10 screen.
+
+TOOL / Device 	      BROWSER	        OS
+Huawei P10           Chrome          android
+phone: Nokia X20	    chrome	         android
+phone: Moto G20	     chrome	         android
+DELL Latitude E7440	 MS Edge	        Windows 10
+ACER Swift 1         Chrome          Windows 10
+
+Here is the screenshot for testing done on Huawei P10 mobile phone: ![P2 Screenshot_Huawei](https://user-images.githubusercontent.com/68662449/158337953-e108596f-3de4-4cee-81b8-7a16a98156ea.jpg)
+
+
+
 ### Manual Testing
 
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. 
+- buttons click and lead user to a response.
+- All images are well presented and accessible
+- Button show the click pointing hand when hovered over
+- Buttons are clear, well labelled and provide user with right information
+- good colour contrast makes for great accessibility and easy experience for user
+- Flags are colourful and pleasant to see on screen
+- sound option works very well
+- quick and easy to switch from one quiz to the other.
 
 
 ### Defect Tracking
 
-You should mention  any  bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-Again there are 3 different ways to do this, by your final project you should be using git hub tools.
-
+I fixed several coding defects as documented on gitpod and committed in gitHub.
 
 ### Outstanding Defects
-It's ok to not resolve all the defects you found. If you know of something that isn't quite right, list it out and explain why you chose not to resolve it.
+None.
 
 ## Lighthouse Audits
 
@@ -157,6 +177,8 @@ To avoid plagiarism amd copyright infringement, you should mention any other pro
 ### Content
 
 Use bullet points to list out sites you copied text from and cross-reference where those show up on your site
+I followed Code Institue's Love Maths - Essentials Project to get started on this project
+(https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LM101+2021_T1/courseware/2d651bf3f23e48aeb9b9218871912b2e/a8ec361b95e94c25bf8a821654bd57bc/)
 
 ### Media
 
