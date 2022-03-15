@@ -21,7 +21,7 @@ An interactive Front-End web application built using HTML, CSS and JavaScript wi
 Here is a link to my deployed project: (https://oonyekpe.github.io/international-flag-game/).
 
 Here is a screenshot of navigation of my mobile deployed site:
-![image](https://user-images.githubusercontent.com/68662449/158280812-7967fbcb-49f6-47c3-befd-e8db3e1388d0.png)
+![image](https://user-images.githubusercontent.com/68662449/158313360-f9e0b9d2-c065-453f-8329-64d34720cba3.png)
 
 ## Author
 Obiageli Onyekpe
@@ -42,13 +42,7 @@ This online quiz game is designed for inquisitive people with good general knowl
 To begin constructing the idea, I drafted a rough layout on PowerPoint in order to visualise my idea. Here is a PDF of my [wireframes](https://github.com/oonyekpe/international-flag-game/blob/main/assets/docs/flag-game-wireframe.pdf)
 
 ### Features
-- One HTML Home page with interactive and functional features
-- Game coded to generate two types of quiz games which the player can access by selecting one of two buttons
-- Sound: button at the top of page can be clicked to turn music on or off during play
-- Heading at top of the page clearly stating what the quiz game is about
-- Heading "How to Play" with short list of 3 instructions to play the game
-- Two separate buttons to select a quiz, identify 10 Flags quiz or identify from All flags in the world.
-
+- 
 In this section, you should go over the different parts of your project, and describe each in a sentence or so and how they tie into  your user stories.
 
 #### Implemented Features
@@ -60,9 +54,39 @@ It's easiest to break this section down into the header, footer, and each page/l
 Don't forget your 404 error page.
 
 #### Future Features
+One HTML Home page with interactive and functional features.
+- Game coded to generate two types of quiz games which the player can access by selecting one of two buttons.
+- Sound: button at the top of page can be clicked to turn music on or off during play.
+- Heading at top of the page clearly stating what the quiz game is about.
+- Heading "How to Play" with short list of 3 instructions to play the game.
+- Two play buttons named "10 random flags" and "All flags " for the player to select a quiz.
+- Your Score count display - starting with 0/10 or 0/255 replaces previous headings at top of the page once quiz is initiated.
+Here is a screenshot showing this feature: ![image](https://user-images.githubusercontent.com/68662449/158320354-71f6719b-bbb4-482a-8700-cde2d9a2b0a7.png)
+
+- Images - Flag images from all countries; game coded to randomly select for each of the two quiz categories.
+- SELECT Option Buttons - three buttons under each flag presented (select the name of the country whose flag appears).
+- CHECK answer Button -  click to check you answer
+- Pop up flash phrases - 'CORRECT!" or "SORRY! The correct answer is:" in response to player's selected answer.
+- NEXT Question Button - alligned under 3 answer selection options.
+- Position of CORRECT answer changes with each new flag option. In the two screenshots below, correct answer is top and then middle option:
+![image](https://user-images.githubusercontent.com/68662449/158320812-00137ba8-253e-4ae2-a7dd-06ab47887221.png)
+
+![image](https://user-images.githubusercontent.com/68662449/158321042-b486ba2d-5ed5-4195-977d-1da429a5f433.png)
+
+
+- Your FINAL Score is 10/10 etc. at he end of each game. 
+- Play again BUTTON appears at the end of each round. Here is a screenshot demonstrating this feature:
+![image](https://user-images.githubusercontent.com/68662449/158319626-845a84d0-7dde-4a05-97b7-ccc636fa3126.png)
+ 
+- Refresh page in browser to return to Home page at any point.
+
 
 Use this section to discuss plans for additional features to be implemented in the future:
 
+- In future, I would like to improve the design of the Home page, spread the visible features out more
+- I would like to add more design feature for a more aesthetic presentation
+- I would include a navigation panel for the Home button and perhaps a Forward and Back.
+- I would complete the development for the "All flags" quiz
 If you end up not developing some features you hoped to implement, you can include those in this section.
 
 
@@ -90,7 +114,9 @@ I fixed two warnings and now I have no errors or warnings, see link below:
 ### Cross Browser and Cross Device Testing
 Create a table that lists out what devices, browsers, and operating system you tested your application on and a brief description of why you chose the mixture you did. The point is to prove that you looked at the site across various browsers, operating systems, and viewport breakpoints.
 
-
+- DELL Latitutde E7440, ACER Swift 1 - Windows 10 OS- Microsoft Edge and Google Chrome : no issues encountered. 
+These browswers are most commonly used in my network of family and friends, I tested on laptops and  Tablets within my circles of interaction.
+- Huawei P10 and Nokia X20 - all funtions and features worked well.
 ### Manual Testing
 
 For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. 
