@@ -48,32 +48,6 @@ Use this section to provide insight into your UX process, focusing on who this w
 
 This online quiz game is designed for inquisitive people with good general knowledge and interest in countries across the world. Users' age range would be from primary school age to 100 years! Visitors to the site will enjoy the simplicity and accessibility of the layout and find it easy to play the quiz game. This site is designed to meet accessibilty guidelines for people of all abilities.
 
-I tested the quiz idea with two children and two adults and was encouraged by their positive feedback. After I completed the site, I asked for them to test the game and the feedback on their experience was that it was fun, interactive and easy to play. 
-
-### Design Choices
-Your site is most likely geared to a certain audience, and your design choices should tie into them. Let the assessors know your thought process.
-
-You may want to re-watch the videos about the [5 planes of UX development ](https://learn.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/22905698f3be425d918ebc64c87801b7/9c295bdc5a4048308460e262b14ab7df/) when writing up this section
-
-#### Colors
-
-- Discuss your color pallet choices and how it ties into users' emotions or target audience.
-- include a screenshot of your pallet using a tool like coolors.co
-
-#### Typography
-
-- discuss font size, font types for headers vs buttons vs general text and how it ties into users' emotions or target audience.
-- include screenshots of fonts used and links to the appropriate website ex) https://fonts.google.com/specimen/Raleway
-
-#### Images
-
-Explain why you used certain icons and images on your site
-
-#### Animations and Transitions
-
-- discuss any special animations or transitions you've included 
-- special hover state effects
-
 ### Wireframes
 To begin constructing the idea, I drafted a rough layout on PowerPoint in order to visualise my idea. Here is a PDF of my [wireframes](https://github.com/oonyekpe/international-flag-game/blob/main/assets/docs/flag-game-wireframe.pdf)
 
@@ -98,9 +72,7 @@ If you end up not developing some features you hoped to implement, you can inclu
 
 ## Testing
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+I tested the quiz idea with two children and two adults and was encouraged by their positive feedback. After I completed the site, I asked for them to test the game and the feedback on their experience was that it was fun, interactive and easy to play.
 
 ### Validation Testing
 I validated my code with the following websites (see the screenshots below):
@@ -109,85 +81,29 @@ I validated my code with the following websites (see the screenshots below):
 ![image](https://user-images.githubusercontent.com/68662449/158278031-510924eb-c905-42fa-8a15-420445dc3ffb.png)
 
 - [HTML Validator](https://validator.w3.org/)
+I fixed two warnings and now I have no errors or warnings, see link below:
+![image](https://user-images.githubusercontent.com/68662449/158299153-29917aba-8cc2-4445-8554-84039bb01e7b.png)
+
 - [JS validation](https://jshint.com) I copied my Script.JS file and pasted this since I used ES6, at the top of the file. 
 `/*jshint esversion: 6 */ `
 ![image](https://user-images.githubusercontent.com/68662449/158274993-8fead18f-94d8-43c7-853c-ed5407acc83f.png)
 
 
-- [JSON validation](https://jsonlint.com/) for each .json file 
+
 
 ### Cross Browser and Cross Device Testing
 Create a table that lists out what devices, browsers, and operating system you tested your application on and a brief description of why you chose the mixture you did. The point is to prove that you looked at the site across various browsers, operating systems, and viewport breakpoints.
 
-| TOOL / Device                 | BROWSER     | OS         | SCREEN WIDTH  |
-|-------------------------------|-------------|------------|---------------|
-| real phone: motog6            | chrome      | android    | XS 360 x 640  |
-| browser stack: iPhone5s       | safari      | iOs        | XS 320 x 568  |
-| dev tools emulator: pixel 2   | firefox     | android    | SM 411 x 731  |
-| browserstack: iPhone 10x      | Chrome      | iOs        | SM 375 x 812  |
-| browserstack: nexus 7 - vert  | Chrome      | android    | M 600 x 960   |
-| real tablet: ipad mini - vert | safari      | iOs        | M 768 x 1024  |
-| browserstack: nexus 7 - horiz | firefox     | android    | LG 960 x 600  |
-| chrome emulator: ipad - horiz | safari      | iOs        | LG 1024 x 768 |
-| browserstack                  | Chrome      | windows    | XL 1920 x 946 |
-| real computer: mac book pro   | safari 12.1 | Mohave     | XL 1400 x 766 |
-| browserstack                  | IE Edge 88  | windows 10 | XL 1920 x 964 |
 
 ### Manual Testing
 
 For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. 
 
-There are 3 ways you can document your testing:
-
-**1. Markdown**
-
-Describing your testing process is via scenarios, right here such as:
-
-1. Contact form:
-    1. Go to the "Contact Us" page
-    2. Try to submit the empty form and verify that an error message about the required fields appears
-    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    4. Try to submit the form with all inputs valid and verify that a success message appears.
-
-**2. Use Spreadsheets**    
-
-Here is a [Manual Testing Template](https://docs.google.com/spreadsheets/d/1vc1IVL-ydQwWeWMqnk_GRox6HE6qxDLpchGse8Crayo/edit#gid=296578096) that you can use as a starting point to keep track of your testing efforts. Make a copy of it in your own account and update as needed to reflect the browsers you are testing and features.  
-
-**3.Use Github Agile Tools**
-
-Create Custom Issue Template and A Pojrect Board in git hub.[Here's a brief overview](https://docs.google.com/document/d/1nDS5tZeMO77Dfq85IZGMSV6C41XaPm9FwcpR3k-UTVc/edit?usp=sharing) I put together on how to do this
-
-It's ok to spot check specific functionality across devices and browsers but each page should be viewed as a whole for each device/browser combo at least once too.
-
-A quick way to check if items are exceeding the screen width of a project is to run this javascript in the console for various screen emulations:
-
-```
-var docWidth = document.documentElement.offsetWidth;
-[].forEach.call(document.querySelectorAll('*'),function(el){if(el.offsetWidth > docWidth){console.log(el);}});
-```
 
 ### Defect Tracking
 
 You should mention  any  bugs or problems you discovered during your testing, even if you haven't addressed them yet.
 Again there are 3 different ways to do this, by your final project you should be using git hub tools.
-
-**1. Markdown**
-
-Desribe the issue in markdown. Include steps to reproduce, then what you did to resolve it.
-
-1. Contact form allows anything for email collection, even blank.
-   1. added pattern to HTML to make it have at least one character then the @ sybmol then a least one character and the . sign and at least one - 3 characters at the end.
-
-**2. Use Spreadsheets**
-
-Here is a [Defect Tracking Template](https://docs.google.com/spreadsheets/d/1tYB4X4wTCNEW_Y1no3hsGbclh2bLokl_I5Ev3s5EuJA/edit?usp=sharing) you use as a starting point to track defects. Make a copy of the sheet to your own account and update the Features sheet to match your project. 
-
-**3. Use Github Agile Tools**
-
-Create Custom Issue Template and a milestone in git hub.[Here's a brief overview](https://docs.google.com/document/d/1nDS5tZeMO77Dfq85IZGMSV6C41XaPm9FwcpR3k-UTVc/edit?usp=sharing) I put together on how to do this.
-
-### Defects of Note
-Some defects are more pesky than others. Highlight 3-5 of the bugs that drove you the most nuts and how you finally ended up resolving them.
 
 
 ### Outstanding Defects
