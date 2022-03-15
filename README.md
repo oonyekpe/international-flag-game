@@ -51,12 +51,6 @@ In this section, you should go over the different parts of your project, and des
 
 #### Implemented Features
 
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
-
-It's easiest to break this section down into the header, footer, and each page/layer of your website. Call out any differences for mobile vs desktop presentations, include a screenshot of the implemented feature.
-
-Don't forget your 404 error page.
-
 #### Future Features
 One HTML Home page with interactive and functional features.
 - Game coded to generate two types of quiz games which the player can access by selecting one of two buttons.
@@ -72,18 +66,22 @@ Here is a screenshot showing this feature: ![image](https://user-images.githubus
 - CHECK answer Button -  click to check you answer
 - Pop up flash phrases - 'CORRECT!" or "SORRY! The correct answer is:" in response to player's selected answer.
 - NEXT Question Button - alligned under 3 answer selection options.
-- Position of CORRECT answer changes with each new flag option. In the two screenshots below, correct answer is top and then middle option:
+- Position of CORRECT answer changes with each new flag option. 
+- In the two screenshots below, correct answer is top and then middle option:
+- 
 ![image](https://user-images.githubusercontent.com/68662449/158320812-00137ba8-253e-4ae2-a7dd-06ab47887221.png)
+
 
 ![image](https://user-images.githubusercontent.com/68662449/158321042-b486ba2d-5ed5-4195-977d-1da429a5f433.png)
 
 
 - Your FINAL Score is 10/10 etc. at he end of each game. 
-- Play again BUTTON appears at the end of each round. Here is a screenshot demonstrating this feature:
+- Play again BUTTON appears at the end of each round.
+
+Here is a screenshot demonstrating this feature:
 ![image](https://user-images.githubusercontent.com/68662449/158319626-845a84d0-7dde-4a05-97b7-ccc636fa3126.png)
  
 - User can refresh page in browser to return to Home page at any point.
-
 
 Use this section to discuss plans for additional features to be implemented in the future:
 
@@ -108,13 +106,16 @@ I validated my code with the following websites (see the screenshots below):
 - [CSS Validator](https://jigsaw.w3.org/css-validator/) no error was found.
 ![image](https://user-images.githubusercontent.com/68662449/158278031-510924eb-c905-42fa-8a15-420445dc3ffb.png)
 
+
 - [HTML Validator](https://validator.w3.org/)
 I fixed two warnings and now I have no errors or warnings, see link below:
 ![image](https://user-images.githubusercontent.com/68662449/158299153-29917aba-8cc2-4445-8554-84039bb01e7b.png)
 
+
 - [JS validation](https://jshint.com) I copied my Script.JS file and pasted this since I used ES6, at the top of the file. 
 `/*jshint esversion: 6 */ `
 ![image](https://user-images.githubusercontent.com/68662449/158274993-8fead18f-94d8-43c7-853c-ed5407acc83f.png)
+
 
 
 
@@ -132,7 +133,10 @@ phone: Moto G20	     chrome	         android
 DELL Latitude E7440	 MS Edge	        Windows 10
 ACER Swift 1         Chrome          Windows 10
 
-Here is the screenshot for testing done on Huawei P10 mobile phone: ![P2 Screenshot_Huawei](https://user-images.githubusercontent.com/68662449/158337953-e108596f-3de4-4cee-81b8-7a16a98156ea.jpg)
+
+Here is the screenshot for testing done on Huawei P10 mobile phone: 
+![P2 Screenshot_Huawei](https://user-images.githubusercontent.com/68662449/158337953-e108596f-3de4-4cee-81b8-7a16a98156ea.jpg)
+
 
 
 
@@ -172,25 +176,23 @@ I ran an audit at [web.dev](https://web.dev/measure/)
 ![image](https://user-images.githubusercontent.com/68662449/158276709-23a5f107-8602-4150-94db-c8952cad2322.png)
 
 
-
-
 ## Credits
-
-To avoid plagiarism amd copyright infringement, you should mention any other projects, stackoverflow, videos, blogs, etc that you used to gather imagery or ideas for your code even if you used it as a starting point and modified things. Giving credit to other people's efforts and ideas that saved you time acknowledges the hard work others did. 
 
 ### Content
 
-Use bullet points to list out sites you copied text from and cross-reference where those show up on your site
-I followed Code Institue's Love Maths - Essentials Project to get started on this project
-(https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LM101+2021_T1/courseware/2d651bf3f23e48aeb9b9218871912b2e/a8ec361b95e94c25bf8a821654bd57bc/)
+-	https://www.youtube.com/watch?v=-cX5jnQgqSM
+- https://flagpedia.net/download/vector
+- https://www.playonloop.com/freebies-download/
+- https://www.vectorstock.com/royalty-free-vector/trophy-vector-21664633
+- https://resizeimage.net/
+
 
 ### Media
 
-Make a list of sites you used images from. If you used several sites try to match up each image to the correct site. This includes attribution for icons if they came from font awesome or other sites, give them credit.
+https://flagpedia.net/download/vector was the source of the flags.
+https://www.playonloop.com/freebies-download/ was the source of the backgroung music.
 
 ### Acknowledgments
 
-This is the section where you refer to code examples, mentors, blogs, stack overflow answers and videos that helped you accomplish your end project. Even if it's an idea that you updated you should note the site and why it was important to your completed project.
-
-If you used a CodeInstitute Example project as a starting point. Make note of that here.
-
+- My mentor Malia helped me immensely especially with exploring ways to navigate the many challenges that surfaced with coding JSscript using similar codes to design new and different interaction and outputs, particularly with defining and assigning functions and class id to the different types of buttons that are actionable in my quiz game. I couldn't have completed this write up without her attentive and personable approach and support which helped me immensely.
+-	I used CodeInstitute's example project Love Maths - Essentials Project as a starting point.
