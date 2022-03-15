@@ -16,16 +16,21 @@ Copy your readme to http://ecotrust-canada.github.io/markdown-toc/ to make a tab
 
 ====================================== The Sections you Fill in are below ==============================
 
-# PROJECT NAME
-*replace the **PROJECT NAME** header with your project's name*
-- Screenshot of logo/navigation of mobile deployed site
+# International Flag Game
+An interactive Front-End web application built using HTML, CSS and JavaScript based on the principles of user experience design, accessibility and responsivity.
+Here is a screenshot of navigation of my mobile deployed site:
+![image](https://user-images.githubusercontent.com/68662449/158280812-7967fbcb-49f6-47c3-befd-e8db3e1388d0.png)
+ 
 - Include a link to deployed project with one line explanation of project
 
 ## Author
-DEVELOPER_NAME
+Obiageli Onyekpe
 
 ## Project Overview
+Do You Know Your Flags? is the challenge of this online interactive fun quiz I built. Users can test their knowledge of national flags in a fun way, and get excited seeing their answers generate scores as they play the game.
 - Include a picture of site that shows it in responsive states and links to deployed code: http://ami.responsivedesign.is/
+ ![image](https://user-images.githubusercontent.com/68662449/158282727-96e2fa9c-e04d-4a64-8e26-ea400b88ba2e.png)
+
 - One or two paragraphs providing an overview of your project.
 - Write this as a sales pitch or commercial to entice users to interact with your site or how you want investors to purchase your website.
 - Include a link to your deployed website
