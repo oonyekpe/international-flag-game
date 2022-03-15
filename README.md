@@ -21,7 +21,8 @@ An interactive Front-End web application built using HTML, CSS and JavaScript wi
 Here is a link to my deployed project: (https://oonyekpe.github.io/international-flag-game/).
 
 Here is a screenshot of navigation of my mobile deployed site:
-![image](https://user-images.githubusercontent.com/68662449/158313360-f9e0b9d2-c065-453f-8329-64d34720cba3.png)
+![image](https://user-images.githubusercontent.com/68662449/158345798-57f16ec2-fc97-48ac-87e5-cedc2f2c07be.png)
+
 
 ## Author
 Obiageli Onyekpe
