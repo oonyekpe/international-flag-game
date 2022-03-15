@@ -52,14 +52,17 @@ In this section, you should go over the different parts of your project, and des
 #### Implemented Features
 
 #### Future Features
-One HTML Home page with interactive and functional features.
+- One HTML Home page with interactive and functional features.
 - Game coded to generate two types of quiz games which the player can access by selecting one of two buttons.
 - Sound: button at the top of page can be clicked to turn music on or off during play.
 - Heading at top of the page clearly stating what the quiz game is about.
 - Heading "How to Play" with short list of 3 instructions to play the game.
 - Two play buttons named "10 random flags" and "All flags " for the player to select a quiz.
 - Your Score count display - starting with 0/10 or 0/255 replaces previous headings at top of the page once quiz is initiated.
+
+
 Here is a screenshot showing this feature: ![image](https://user-images.githubusercontent.com/68662449/158320354-71f6719b-bbb4-482a-8700-cde2d9a2b0a7.png)
+
 
 - Images - Flag images from all countries; game coded to randomly select for each of the two quiz categories.
 - SELECT Option Buttons - three buttons under each flag presented (select the name of the country whose flag appears).
